@@ -1,0 +1,73 @@
+    header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(247, 129, 218);
+    background-image: url(rijswijkbuiten.jpg);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(247, 129, 218);
+        }
+
+.h1titel{
+    font-family: "dancing script", "comic sans mf", cursive;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}        
+
+section{
+padding: 10px;
+display: flex;
+}
+
+#inhoudeen{
+width: 25%;
+min-height: 200px;
+background-color: purple;
+display: inline-block;
+color: white;
+}
+
+ul{
+    list-style-type: decimal;
+}
+
+.flex-container {
+    display: flex;
+    background-color: pink;
+    width: 75%;
+}
+
+.flex-child {
+    flex: 1;
+    border: 1px solid rgb(0, 0, 0);
+}  
+
+img{
+    float: right;
+    margin-right: 5px;
+}
+
+.p1{
+    margin-left: 5px;
+}  
+
+.p2{
+    margin-left: 5px;
+}
+
+body {
+    background-color: rgb(255, 238, 253);
+  }
+  
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: rgb(255, 223, 250);
+    }
+  }
